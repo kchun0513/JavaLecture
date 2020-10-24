@@ -10,12 +10,7 @@ public class test {
 		System.out.println("add : " + (a+b)
 				+ " sub : " + (a-b)
 				+ " mul : " + (a*b)
-<<<<<<< HEAD
-				+ " div : " + ((double)a/(double)b));
-=======
 				+ " div : " + (a/b));
->>>>>>> B
-		
 
 
 	}
