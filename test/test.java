@@ -3,11 +3,7 @@ import java.util.*;
 public class test {
 
 	public static void main(String[] args) {
-<<<<<<< HEAD
-		Scanner sc = new Scanner(System.in);
-		double a = sc.nextDouble();
-		double b = sc.nextDouble();
-=======
+
 		double add, sub, mul, div;
 		Scanner sc = new Scanner(System.in);
 		double a = sc.nextDouble();
@@ -22,12 +18,6 @@ public class test {
 				+ " sub : " + sub
 				+ " mul : " + mul
 				+ " div : " + div);
->>>>>>> C
-		
-		System.out.println("add : " + (a+b)
-				+ " sub : " + (a-b)
-				+ " mul : " + (a*b)
-				+ " div : " + (a/b));
 
 
 	}
