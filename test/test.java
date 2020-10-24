@@ -6,18 +6,13 @@ public class test {
 		int add, sub, mul;
 		double div;
 		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt();
-		int b = sc.nextInt();
+		double a = sc.nextDouble();
+		double b = sc.nextDouble();
 		
-		add = a+b;
-		sub = a-b;
-		mul = a*b;
-		div = (double)a/(double)b;
-		
-		System.out.println("add : " + add 
-				+ " sub : " + sub 
-				+ " mul : " + mul
-				+ " div : " + div);
+		System.out.println("add : " + (a+b)
+				+ " sub : " + (a-b)
+				+ " mul : " + (a*b)
+				+ " div : " + (a/b));
 		
 
 
