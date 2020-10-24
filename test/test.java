@@ -9,15 +9,10 @@ public class test {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		
-		add = a+b;
-		sub = a-b;
-		mul = a*b;
-		div = (double)a/(double)b;
-		
-		System.out.println("add : " + add 
-				+ " sub : " + sub 
-				+ " mul : " + mul
-				+ " div : " + div);
+		System.out.println("add : " + (a+b)
+				+ " sub : " + (a-b)
+				+ " mul : " + (a*b)
+				+ " div : " + ((double)a/(double)b));
 		
 
 
